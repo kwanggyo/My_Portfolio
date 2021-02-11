@@ -5,11 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
   <script src="https://kit.fontawesome.com/dbd976699d.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
-  <!-- navbar 활용, stciky-top이 안되고 있음.. -->
+  <!-- navbar 활용 -->
   <header class="sticky-top">
     <nav class="navbar navbar-light bg-dark">
       <div class="container-fluid">
@@ -50,11 +51,11 @@
           <img src="images/조급No.jpg" class="d-block w-100" alt="조급No">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+      <button class="carousel-control-prev" style="opacity: 0;" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+      <button class="carousel-control-next" style="opacity: 0;" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -80,74 +81,75 @@
   <!-- SKILLS 부분 -->
   <section id="SKILLS" class="container">
     <h2 class="fw-bold m-2 fs-1">SKILLS</h2>
-    <hr>
+    <br>
     <div class="row justify-content-around">
       <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">PYTHON</h3>
-        <img src="images/PYTHON.png" class="card-img-top" alt="PYTHON">
+        <img src="images/PYTHON.png" class="card-img-top img-height img-width" alt="PYTHON">
         <div class="card-body">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="text-center">10%</p>
+          <p class="text-center">3%</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">HTML</h3>
-        <img src="images/HTML.png" class="card-img-top" alt="HTML">
+        <img src="images/HTML.png" class="card-img-top img-height img-width" alt="HTML">
         <div class="card-body">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="text-center">10%</p>
+          <p class="text-center">3%</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">CSS</h3>
-        <img src="images/CSS.png" class="card-img-top" alt="CSS">
+        <img src="images/CSS.png" class="card-img-top img-height img-width" alt="CSS">
         <div class="card-body">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="text-center">10%</p>
+          <p class="text-center">3%</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">BOOTSTRAP</h3>
-        <img src="images/BOOTSTRAP.png" class="card-img-top" alt="BOOTSTRAP">
+        <img src="images/BOOTSTRAP.png" class="card-img-top img-height img-width" alt="BOOTSTRAP">
         <div class="card-body">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="text-center">10%</p>
+          <p class="text-center">3%</p>
         </div>
       </div>
     </div>
     <hr>
+    <br>
   </section>
   <!-- CAREER & CERTIFICATION 부분 -->
   <section id="CAREER & CERTIFICATION" class="container">
     <h2 class="fw-bold m-2 fs-1">CAREER & CERTIFICATION</h2>
-    <hr>
+    <br>
     <div class="row justify-content-around">
       <div class="card my-4 border-0" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">XENIXWIN</p>
+          <p class="card-text fw-bold">XENIXWIN</p>
           <p class="card-text">2018.12 - 2019.02 KS안전인증평가 시료 제작</p>
           <p class="card-text">2019.06 - 2019.08 누전 차단기 자동 트립 문제 해결</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./images/전기기사.jpg" class="card-img-top" alt="전기기사">
         <div class="card-body">
-          <p class="card-text">전기기사</p>
+          <p class="card-text fw-bold">전기기사</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./images/전기공사기사.jpg" class="card-img-top" alt="전기공사기사">
         <div class="card-body">
-          <p class="card-text">전기공사기사</p>
+          <p class="card-text fw-bold">전기공사기사</p>
         </div>
       </div>
       <div class="card my-4 border-0" style="width: 18rem;">
@@ -158,24 +160,29 @@
       </div>
     </div>
     <hr>
+    <br>
   </section>
   <footer id="CONTECT" class="container">
     <h2 class="fw-bold m-2 fs-1">CONTECT</h2>
-    <p class="fw-bold text-center py-4" style="font-size: 35px;">이광교</p>
-    <ul class="d-flex flex-row justify-content-around">
+    <br>
+    <p class="fw-bold text-center py-4" style="font-size: 35px;">이 광 교</p>
+    <ul class="d-flex flex-row justify-content-around py-4">
       <li class="d-flex flex-column text-center">
         <i class="far fa-envelope fs-1"></i>
+        <br>
         <p>dlrhkdry29@gmail.com</p>
       </li>
       <li class="d-flex flex-column text-center">
         <i class="fas fa-mobile-alt fs-1"></i>
+        <br>
         <p>010-3830-0829</p>
       </li>
       <li class="d-flex flex-column text-center">
         <i class="far fa-user-circle fs-1"></i>
+        <br>
         <p>SNS</p>
-        <a href="https://www.instagram.com/pang._.gyo/" class="text-decoration-none">Instagram : pang._.gyo</a>
-        <a href="https://blog.naver.com/dlrhkdry29" class="text-decoration-none">Blog : https://blog.naver.com/dlrhkdry29</a>
+        <a href="https://www.instagram.com/pang._.gyo/" class="text-decoration-none" target="_blank">Instagram : pang._.gyo</a>
+        <a href="https://blog.naver.com/dlrhkdry29" class="text-decoration-none" target="_blank">Blog : https://blog.naver.com/dlrhkdry29</a>
       </li>
     </ul>
   </footer>
