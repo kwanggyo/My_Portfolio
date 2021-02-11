@@ -10,22 +10,22 @@
 </head>
 <body>
   <!-- navbar 활용, stciky-top이 안되고 있음.. -->
-  <header>
-    <nav class="navbar sticky-top navbar-light bg-dark">
+  <header class="sticky-top">
+    <nav class="navbar navbar-light bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="#"><img src="images/KWANGGYO.jpg" width="30px" class="rounded-circle mx-1" alt="KWANGGYO"> KWANGGYO</a>
         <ul class="navbar-nav d-flex flex-row mx-2  align-items-center">
           <li class="nav-item">
-            <a class="nav-link active text-light mx-2" href="#">ABOUT ME</a>
+            <a class="nav-link active text-light mx-2" href="#ABOUT ME">ABOUT ME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light mx-2" href="#">SKILLS</a>
+            <a class="nav-link text-light mx-2" href="#SKILLS">SKILLS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light mx-2" href="#">CAREER & CERTIFICATION</a>
+            <a class="nav-link text-light mx-2" href="#CAREER & CERTIFICATION">CAREER & CERTIFICATION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-light mx-2" href="#">CONTACT</a>
+            <a class="nav-link  text-light mx-2" href="#CONTECT">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -35,9 +35,9 @@
     <!-- carousel 활용, 사진은 미정 -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn-lg m-1" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn-lg m-1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn-lg m-1" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn-sm px-5 m-3" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn-sm px-5 m-3" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn-sm px-5 m-3" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item">
@@ -61,7 +61,7 @@
     </div>
   </section>
   <!-- ABOUT ME 부분 -->
-  <section class="container">
+  <section id="ABOUT ME" class="container">
     <div class="d-flex flex-row align-items-center">
       <article>
         <img src="images/KWANGGYO.jpg" width="50%" alt="KWANGGYO">
@@ -71,18 +71,18 @@
         <hr>
         <br>
         <p><i class="fas fa-bolt mx-3"></i>2014.03 - 2020.02 충남대학교 전기공학과 졸업</p>
-        <p><i class="fas fa-bolt mx-3"></i>2018.12 - 2019.02 제닉스윈 인턴</p>
-        <p><i class="fas fa-bolt mx-3"></i>2019.06 - 2019.08 제닉스윈 인턴</p>
-        <p><i class="fas fa-bolt mx-3"></i>2021.01 - SSAFY 5기</p>
+        <p><i class="fas fa-bolt mx-3"></i>2018.12 - 2019.02 XENIXWIN 인턴</p>
+        <p><i class="fas fa-bolt mx-3"></i>2019.06 - 2019.08 XENIXWIN 인턴</p>
+        <p><i class="fas fa-bolt mx-3"></i>2021.01 ~ Samsung Software Academy For Youth 5기</p>
       </article>
     </div>
   </section>
   <!-- SKILLS 부분 -->
-  <section class="container">
+  <section id="SKILLS" class="container">
     <h2 class="fw-bold m-2 fs-1">SKILLS</h2>
     <hr>
     <div class="row justify-content-around">
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">PYTHON</h3>
         <img src="images/PYTHON.png" class="card-img-top" alt="PYTHON">
         <div class="card-body">
@@ -92,7 +92,7 @@
           <p class="text-center">10%</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">HTML</h3>
         <img src="images/HTML.png" class="card-img-top" alt="HTML">
         <div class="card-body">
@@ -102,7 +102,7 @@
           <p class="text-center">10%</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">CSS</h3>
         <img src="images/CSS.png" class="card-img-top" alt="CSS">
         <div class="card-body">
@@ -112,7 +112,7 @@
           <p class="text-center">10%</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <h3 class="text-center m-2 fw-bold">BOOTSTRAP</h3>
         <img src="images/BOOTSTRAP.png" class="card-img-top" alt="BOOTSTRAP">
         <div class="card-body">
@@ -125,12 +125,12 @@
     </div>
     <hr>
   </section>
-  <!-- CAREER 부분 -->
-  <section class="container">
+  <!-- CAREER & CERTIFICATION 부분 -->
+  <section id="CAREER & CERTIFICATION" class="container">
     <h2 class="fw-bold m-2 fs-1">CAREER & CERTIFICATION</h2>
     <hr>
     <div class="row justify-content-around">
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">XENIXWIN</p>
@@ -138,19 +138,19 @@
           <p class="card-text">2019.06 - 2019.08 누전 차단기 자동 트립 문제 해결</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">전기기사</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">전기공사기사</p>
         </div>
       </div>
-      <div class="card my-4" style="width: 18rem;">
+      <div class="card my-4 border-0" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">SW 관련 자격증 취득 예정?</p>
@@ -159,8 +159,25 @@
     </div>
     <hr>
   </section>
-  <footer class="container">
+  <footer id="CONTECT" class="container">
     <h2 class="fw-bold m-2 fs-1">CONTECT</h2>
+    <p class="fw-bold text-center py-4" style="font-size: 35px;">이광교</p>
+    <ul class="d-flex flex-row justify-content-around">
+      <li class="d-flex flex-column text-center">
+        <i class="far fa-envelope fs-1"></i>
+        <p>dlrhkdry29@gmail.com</p>
+      </li>
+      <li class="d-flex flex-column text-center">
+        <i class="fas fa-mobile-alt fs-1"></i>
+        <p>010-3830-0829</p>
+      </li>
+      <li class="d-flex flex-column text-center">
+        <i class="far fa-user-circle fs-1"></i>
+        <p>SNS</p>
+        <a href="https://www.instagram.com/pang._.gyo/" class="text-decoration-none">Instagram : pang._.gyo</a>
+        <a href="https://blog.naver.com/dlrhkdry29" class="text-decoration-none">Blog : https://blog.naver.com/dlrhkdry29</a>
+      </li>
+    </ul>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
