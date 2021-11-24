@@ -1,6 +1,6 @@
 # 설 연휴 Web Portfolio 제작
 
-LEEKWANGGYO HOMEPAGE : https://kwanggyo.github.io/my_portfolio/
+LEEKWANGGYO HOMEPAGE : https://kwanggyo.github.io/My_Portfolio/
 
 Google에서 kwanggyo portfolio 검색하면 볼 수 있다😮
 
